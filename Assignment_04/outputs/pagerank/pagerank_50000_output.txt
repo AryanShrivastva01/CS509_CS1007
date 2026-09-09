@@ -1,5 +1,5 @@
 Algorithm: PageRank
-Damping: 0
+Damping: 0.85
 Vertex ranks:
 0 2e-05
 1 2e-05
@@ -50002,6 +50002,6 @@ Vertex ranks:
 49998 2e-05
 49999 2e-05
 Sum of ranks: 1
-Iterations: 0
-Converged: false
-Execution time: 420 microseconds
+Iterations: 1
+Converged: true
+Execution time: 3825 microseconds
