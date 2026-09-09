@@ -587,11 +587,11 @@ are completed individually.
 
 | Test Case | Vertices (V) | Damping | Sum of Ranks | Iterations | Converged | Execution Time |
 |---|---:|---:|---:|---:|---|---:|
-| `pagerank_10.txt` | 4* | 1 | 1 | 0 | false | 1 microseconds |
-| `pagerank_100.txt` | 100 | 0 | 1 | 0 | false | 1 microseconds |
-| `pagerank_1000.txt` | 1,000 | 0 | 1 | 0 | false | 6 microseconds |
-| `pagerank_10000.txt` | 10,000 | 0 | 1 | 0 | false | 53 microseconds |
-| `pagerank_50000.txt` | 50,000 | 0 | 1 | 0 | false | 420 microseconds |
+| `pagerank_10.txt` | 4 | 0.85 | 1 | 18 | true | 5 microseconds |
+| `pagerank_100.txt` | 100 | 0.85 | 1 | 1 | true | 7 microseconds |
+| `pagerank_1000.txt` | 1,000 | 0.85 | 1 | 1 | true | 65 microseconds |
+| `pagerank_10000.txt` | 10,000 | 0.85 | 1 | 1 | true | 639 microseconds |
+| `pagerank_50000.txt` | 50,000 | 0.85 | 1 | 1 | true | 3825 microseconds |
 
 ### PageRank Observation
 
