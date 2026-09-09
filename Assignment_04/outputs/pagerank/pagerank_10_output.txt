@@ -1,11 +1,11 @@
 Algorithm: PageRank
-Damping: 1
+Damping: 0.85
 Vertex ranks:
-0 0.25
-1 0.25
-2 0.25
-3 0.25
+0 0.20196
+1 0.373603
+2 0.386937
+3 0.0375
 Sum of ranks: 1
-Iterations: 0
-Converged: false
-Execution time: 1 microseconds
+Iterations: 18
+Converged: true
+Execution time: 5 microseconds
